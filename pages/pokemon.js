@@ -3,7 +3,7 @@ function Pokemon({ pokemon }){
   console.log(pokemon);
 return (
   <div>
-    welcome, brad
+    welcome, {pokemon.name}
   </div>
 )
 }
